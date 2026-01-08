@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamaracá - Paris Maracatu</title>
+    <meta name="description" content="Tamaracá - Association de Maracatu à Paris. Cours de percussions brésiliennes, parades et concerts. Fondé en 2010.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥁</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 100 100" width="28" height="28">
+                        <path d="M20 80 L35 20 L50 60 L65 20 L80 80" stroke="currentColor" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+                <span class="logo-text">TAMARACÁ</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#cours" class="nav-link">Cours</a></li>
+                <li><a href="#parades" class="nav-link">Parades</a></li>
+                <li><a href="#concerts" class="nav-link">Concerts</a></li>
+                <li><a href="#histoire" class="nav-link">Histoire</a></li>
+                <li><a href="#instrumentarium" class="nav-link">Instruments</a></li>
+                <li><a href="#chants" class="nav-link">Chants</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="images/hero-group.jpg" alt="Tamaracá groupe" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <div class="logo-symbol">
+                    <svg viewBox="0 0 100 100" class="logo-svg">
+                        <path d="M20 80 L35 20 L50 60 L65 20 L80 80" stroke="currentColor" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h1 class="hero-title">TAMARACÁ</h1>
+            </div>
+            <p class="hero-subtitle">PARIS MARACATU • FONDÉ EN 2010</p>
+            <div class="hero-cta">
+                <a href="#cours" class="btn btn-primary">Découvrir nos cours</a>
+                <a href="#contact" class="btn btn-outline">Nous contacter</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Défiler</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Cours Section -->
+    <section class="section section-cours" id="cours">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Apprentissage</span>
+                <h2 class="section-title">Cours de Percussions</h2>
+                <p class="section-subtitle">Apprentissage des cinq instruments du maracatu de baque virado</p>
+            </div>
+
+            <div class="cours-grid">
+                <div class="cours-image reveal">
+                    <img src="images/cours.jpg" alt="Cours de percussions Tamaracá" loading="lazy">
+                </div>
+
+                <div class="cours-content reveal">
+                    <div class="cours-card">
+                        <h3>Direction musicale</h3>
+                        <p>Sous la direction musicale d'<strong>Ana-Maria Constantinescu</strong>, chaque instrument est travaillé en détail à l'aide notamment d'exercices spécifiques et de moyens mémo-techniques.</p>
+                    </div>
+                    <div class="cours-card">
+                        <h3>Pratique complète</h3>
+                        <p>Nous travaillons également la maîtrise du rythme, les chants, le rapport au corps, la posture, l'expression, l'écoute...</p>
+                    </div>
+
+                    <div class="cours-schedule">
+                        <div class="schedule-info">
+                            <h4>Horaires</h4>
+                            <p class="schedule-time">Mardi de 20h à 22h</p>
+                            <p class="schedule-place">Studio Bleu, Paris Xe</p>
+                        </div>
+                    </div>
+
+                    <div class="cours-tarifs">
+                        <h4>Tarifs</h4>
+                        <ul class="tarif-list">
+                            <li><span>Adhésion (obligatoire)</span><span class="price">10€</span></li>
+                            <li><span>Cours d'essai</span><span class="price free">Gratuit</span></li>
+                            <li><span>Cours au trimestre</span><span class="price">90€</span></li>
+                            <li><span>Cours à l'année</span><span class="price">270€</span></li>
+                        </ul>
+                        <p class="tarif-note">Tarifs réduits pour étudiants, demandeurs d'emploi, retraités</p>
+                    </div>
+
+                    <a href="mailto:patakori@hotmail.com" class="btn btn-primary">S'inscrire aux cours</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maracatu Section -->
+    <section class="section section-maracatu" id="maracatu">
+        <div class="parallax-bg">
+            <img src="images/maracatu-queen.jpg" alt="Maracatu tradition" loading="lazy">
+        </div>
+        <div class="container">
+            <div class="maracatu-content reveal">
+                <span class="section-tag">Tradition</span>
+                <h2 class="section-title">Maracatu de Baque Virado</h2>
+                <p class="lead">Une musique du Nordeste brésilien aux racines africaines</p>
+                <div class="maracatu-text">
+                    <p>Le Maracatu de Baque Virado est une expression culturelle née à Recife, dans le Nordeste du Brésil. Issue des traditions africaines amenées par les esclaves, cette musique puissante et hypnotique accompagne les cortèges royaux des "Nações" (nations) lors du carnaval de Recife et Olinda.</p>
+                </div>
+                <div class="maracatu-features">
+                    <div class="feature">
+                        <h4>Nação</h4>
+                        <p>Groupe traditionnel de maracatu, organisé comme une "nation" avec sa propre identité</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Mestre</h4>
+                        <p>Le maître de cérémonie qui dirige la musique et les rituels</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Carnaval</h4>
+                        <p>Moment fort où les nations défilent dans les rues de Recife</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Histoire Section -->
+    <section class="section section-histoire" id="histoire">
+        <div class="container">
+            <div class="histoire-grid">
+                <div class="histoire-content reveal">
+                    <span class="section-tag">Notre parcours</span>
+                    <h2 class="section-title">Histoire de Tamaracá</h2>
+                    <p class="lead">Une association fondée en 2010</p>
+
+                    <div class="histoire-text">
+                        <p>Fondé par <strong>Celso Soares</strong>, percussionniste brésilien, et <strong>Ana-Maria Constantinescu</strong>, ancienne présidente de l'association Patakori, Tamaracá s'est construit autour d'un projet d'échange culturel entre le public français, le groupe Trovão das Minas (Belo Horizonte-Brésil) et le Maracatu Nação Estrela Brilhante de Recife.</p>
+                    </div>
+
+                    <div class="histoire-cards">
+                        <div class="histoire-card">
+                            <h4>Paris-Recife, Recife-Paris</h4>
+                            <p>Respectueux des origines brésiliennes du maracatu, Tamaracá revient régulièrement à la source en organisant des stages avec les grands Mestres de Recife et Olinda.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="histoire-visual reveal">
+                    <div class="mestre-card">
+                        <img src="images/mestre-walter.jpg" alt="Mestre Walter França" loading="lazy">
+                        <div class="mestre-info">
+                            <h4>Mestre Walter França</h4>
+                            <p>Aujourd'hui Mestre de la Nação Raízes de África, il est l'influence musicale principale du groupe.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instrumentarium Section -->
+    <section class="section section-instruments" id="instrumentarium">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nos instruments</span>
+                <h2 class="section-title">Instrumentarium</h2>
+                <p class="section-subtitle">Les cinq instruments traditionnels du maracatu</p>
+            </div>
+
+            <div class="instruments-grid">
+                <div class="instrument-card reveal">
+                    <div class="instrument-visual">
+                        <img src="images/alfaia.jpg" alt="Alfaia" loading="lazy">
+                    </div>
+                    <div class="instrument-content">
+                        <h3>Alfaia</h3>
+                        <p>Grand tambour grave qui donne la pulsation profonde et la puissance caractéristique du maracatu. C'est le cœur battant de l'ensemble.</p>
+                    </div>
+                </div>
+
+                <div class="instrument-card reveal">
+                    <div class="instrument-visual instrument-placeholder">
+                        <span>🥁</span>
+                    </div>
+                    <div class="instrument-content">
+                        <h3>Caixa</h3>
+                        <p>Caisse claire brésilienne qui apporte la texture rythmique et les ornementations. Son jeu utilise des baguettes flexibles.</p>
+                    </div>
+                </div>
+
+                <div class="instrument-card reveal">
+                    <div class="instrument-visual">
+                        <img src="images/gongue.jpg" alt="Gonguê" loading="lazy">
+                    </div>
+                    <div class="instrument-content">
+                        <h3>Gonguê</h3>
+                        <p>Cloche métallique à deux tons qui guide le tempo et structure le rythme. C'est la référence temporelle pour tous les musiciens.</p>
+                    </div>
+                </div>
+
+                <div class="instrument-card reveal">
+                    <div class="instrument-visual instrument-placeholder">
+                        <span>🎶</span>
+                    </div>
+                    <div class="instrument-content">
+                        <h3>Agbê & Mineiro</h3>
+                        <p>Percussion idiophone (calebasse entourée de perles) qui apporte la brillance et le groove. Le mineiro est un shaker cylindrique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parades Section -->
+    <section class="section section-parades" id="parades">
+        <div class="container">
+            <div class="parades-grid">
+                <div class="parades-image reveal">
+                    <img src="images/parade-dancers.jpg" alt="Parade Tamaracá" loading="lazy">
+                </div>
+                <div class="parades-content reveal">
+                    <span class="section-tag">Événements</span>
+                    <h2 class="section-title">Pour vos Parades...</h2>
+                    <p class="lead">Le maracatu : une musique faite pour déambuler</p>
+                    <p>Explosif et entraînant, le maracatu transforme chaque défilé en une expérience inoubliable. L'énergie percussive du groupe emporte tout sur son passage.</p>
+
+                    <div class="parade-options">
+                        <div class="parade-option">
+                            <h4>Avec danseuses</h4>
+                            <p>Accompagnez la musique de danseuses en costumes traditionnels pour un spectacle complet.</p>
+                        </div>
+                        <div class="parade-option">
+                            <h4>Percussions seules</h4>
+                            <p>L'énergie brute des percussions pour un impact maximal.</p>
+                        </div>
+                    </div>
+
+                    <a href="mailto:patakori@hotmail.com" class="btn btn-primary">Demander un devis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Strip -->
+    <div class="gallery-strip">
+        <div class="gallery-track">
+            <img src="images/parade-street.jpg" alt="Parade de rue" loading="lazy">
+            <img src="images/concert.jpg" alt="Concert" loading="lazy">
+            <img src="images/hero-group.jpg" alt="Groupe Tamaracá" loading="lazy">
+            <img src="images/concert-stage.jpg" alt="Concert scène" loading="lazy">
+            <img src="images/parade-dancers.jpg" alt="Parade danseurs" loading="lazy">
+            <img src="images/parade-street.jpg" alt="Parade de rue" loading="lazy">
+            <img src="images/concert.jpg" alt="Concert" loading="lazy">
+            <img src="images/hero-group.jpg" alt="Groupe Tamaracá" loading="lazy">
+        </div>
+    </div>
+
+    <!-- Concerts Section -->
+    <section class="section section-concerts" id="concerts">
+        <div class="container">
+            <div class="concerts-grid">
+                <div class="concerts-content reveal">
+                    <span class="section-tag">Spectacles</span>
+                    <h2 class="section-title">En Concert</h2>
+                    <p class="lead">Ciranda, coco, Afoxé, maracatu : Tamaracá, une énergie percussive</p>
+                    <p>Au-delà du maracatu, Tamaracá explore d'autres rythmes traditionnels du Nordeste brésilien, offrant un voyage musical complet à travers les percussions afro-brésiliennes.</p>
+
+                    <div class="concert-styles">
+                        <span class="style-tag">Ciranda</span>
+                        <span class="style-tag">Coco</span>
+                        <span class="style-tag">Afoxé</span>
+                        <span class="style-tag">Maracatu</span>
+                    </div>
+
+                    <a href="mailto:patakori@hotmail.com" class="btn btn-outline-dark">Demander un devis</a>
+                </div>
+                <div class="concerts-image reveal">
+                    <img src="images/concert-stage.jpg" alt="Concert Tamaracá" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chants Section -->
+    <section class="section section-chants" id="chants">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Répertoire</span>
+                <h2 class="section-title">Chants / Loas</h2>
+                <p class="section-subtitle">Une pratique musicale de groupe où les percussionnistes donnent de la voix</p>
+            </div>
+
+            <div class="chants-intro reveal">
+                <p>Les loas sont les chants traditionnels qui accompagnent le maracatu. Chaque Nação possède son propre répertoire, transmis de génération en génération.</p>
+            </div>
+
+            <div class="nacoes-grid reveal">
+                <div class="nacao-card">
+                    <span class="nacao-name">Nação Raízes de África</span>
+                </div>
+                <div class="nacao-card">
+                    <span class="nacao-name">Nação Estrela Brilhante do Recife</span>
+                </div>
+                <div class="nacao-card">
+                    <span class="nacao-name">Nação Leão Coroado</span>
+                </div>
+                <div class="nacao-card">
+                    <span class="nacao-name">Nação Estrela Brilhante de Igarassu</span>
+                </div>
+                <div class="nacao-card">
+                    <span class="nacao-name">Nação Encanto do Dendê</span>
+                </div>
+                <div class="nacao-card">
+                    <span class="nacao-name">Trovão das Minas</span>
+                </div>
+                <div class="nacao-card">
+                    <span class="nacao-name">Oyá Alaxé</span>
+                </div>
+                <div class="nacao-card highlight">
+                    <span class="nacao-name">Tamaracá</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <span class="section-tag">Nous rejoindre</span>
+                    <h2 class="section-title">Contact</h2>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p><a href="tel:+33661971533">06 61 97 15 33</a></p>
+                                <p class="contact-name">Ana-Maria Constantinescu</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:patakori@hotmail.fr">patakori@hotmail.fr</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Atelier de percussions</h4>
+                                <p>Studio Bleu</p>
+                                <p>7 rue des Petites Écuries</p>
+                                <p>Paris Xe</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/TamaracaParis" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/tamaracaparis" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-image reveal">
+                    <img src="images/concert.jpg" alt="Tamaracá en action" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 100 100" width="32" height="32">
+                        <path d="M20 80 L35 20 L50 60 L65 20 L80 80" stroke="currentColor" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>TAMARACÁ</span>
+                </div>
+                <p class="footer-tagline">Paris Maracatu • Fondé en 2010</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/TamaracaParis" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+                    <span>•</span>
+                    <a href="https://www.instagram.com/tamaracaparis" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                </div>
+                <p class="footer-copy">&copy; 2024 Tamaracá. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
